@@ -1,0 +1,33 @@
+body {
+  margin: 8px 32px;
+  font-family: Source Sans Pro,BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,Helvetica,Arial,sans-serif;;
+}
+
+#plantdiv {
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
+  max-width: 100%;
+  display: grid;
+}
+
+.plantrow {
+  max-height: 200px;
+  max-width: 80%;
+  overflow: hidden;
+  margin: 36px;
+  padding: 36px;
+  border: 2px solid green;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.plantrow span {
+  margin-left: 24px;
+}
+
+.plantimg {
+  max-height: 180px;
+}
